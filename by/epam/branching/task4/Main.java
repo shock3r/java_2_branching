@@ -1,35 +1,20 @@
 package by.epam.branching.task4;
 public class Main {
 	
-	//4. Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через отверстие
-	
-//	/*
-//	* return Rectangle square
-//	*/
-//	public static int getRectangleSquare(int x, int y) {
-//		
-//		return x*y;
-//		
-//	}
-	
+	//4. Р—Р°РґР°РЅС‹ СЂР°Р·РјРµСЂС‹ Рђ, Р’ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ РѕС‚РІРµСЂСЃС‚РёСЏ Рё СЂР°Р·РјРµСЂС‹ С…, Сѓ, z РєРёСЂРїРёС‡Р°. РћРїСЂРµРґРµР»РёС‚СЊ, РїСЂРѕР№РґРµС‚ Р»Рё РєРёСЂРїРёС‡ С‡РµСЂРµР· РѕС‚РІРµСЂСЃС‚РёРµ
+		
 	/*
 	 * @return true of false. find out if one side of the brick will pass through the hole
 	 */
 	public static boolean willPassThroughtThehole(int holeX, int holeY,
 			                                  int brickX, int brickY) {
 		
-		//if ((5<4) || (5>8)) {
 		if (((brickX <= holeX) && (brickY <= holeY))
 				|| ((brickX <= holeY)) && (brickY <= holeX)) {
-			
-			return true;
-			
+			return true;	
 		} else {
-			
-			return false;
-			
-		}
-		
+			return false;	
+		}	
 	}
 	
 	/*
@@ -51,7 +36,6 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		
 		int a = 5; // hole x
 		int b = 3; // hole y 	
 		
@@ -68,5 +52,4 @@ public class Main {
 		System.out.println(brickPassThroungTheHole);
 		
 	}
-
 }
