@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//1.  Найти max{min(a, b), min(c, d)}.
+		//1.  РќР°Р№С‚Рё max{min(a, b), min(c, d)}
 		
 		int a;
 		int b;
