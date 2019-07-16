@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 	
-	//4. Вычислить значение функции:
+	//4. Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё:
 	
 	private static double calculateExpression (Double i) {
 		
@@ -27,14 +27,12 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Введите число:");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®:");
 		
 		Scanner sc = new Scanner(System.in);
 		Double i = sc.nextDouble();
 		
 		Double result = Main.calculateExpression(i);
-		System.out.printf("Для числа %.0f значение функции равно:%f  \n", i, result);
-			
+		ystem.out.printf("Р”Р»СЏ С‡РёСЃР»Р° %.0f Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё СЂР°РІРЅРѕ:%f  \n", i, result);		
 	}
-
 }
