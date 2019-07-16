@@ -27,12 +27,12 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Ââåäèòå ÷èñëî:");
+		System.out.println("Введите число:");
 		
 		Scanner sc = new Scanner(System.in);
 		Double i = sc.nextDouble();
 		
 		Double result = Main.calculateExpression(i);
-		ystem.out.printf("Для числа %.0f значение функции равно:%f  \n", i, result);		
+		System.out.printf("Для числа %.0f значение функции равно:%f  \n", i, result);		
 	}
 }
